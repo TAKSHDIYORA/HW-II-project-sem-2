@@ -3,17 +3,18 @@
     margin-top: 0px;
 }
 #main{
-    background-color: aquamarine;
+    background-color: grey;
 }
 .navbar{
     margin-top: 0px;
-    background : crimson ;
+    background :black;
     font-family: calibri;
     padding-right: 15px;
     padding-left: 15px;
    border-bottom-right-radius: 15px;
    border-bottom-left-radius: 15px;
    box-shadow: 10px 5px 5px gray ; 
+   width: 100%;
 }
 .navdiv{
     display: flex;
