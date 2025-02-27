@@ -3,7 +3,7 @@
     margin-top: 0px;
 }
 #main{
-    background-color: grey;
+    background-color: rgb(251, 247, 247);
 }
 .navbar{
     margin-top: 0px;
@@ -52,3 +52,105 @@ a{
     height: 600px;
     background-repeat: no-repeat;
 }
+.shop-section{
+    margin-top:20px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+}
+.if{
+    
+width: 100%;
+   height: 750px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.if > .i1{
+    background-image: url("boxe2.jpg");
+    width: 48%;
+    height: 48%;
+    background-size: cover;
+
+}
+.if > .i2{
+    background-image: url("boxes101.jpg");
+    width: 48%;
+    height: 48%;
+    background-size: cover;
+
+}
+.if > .i3{
+    background-image: url("boxes.jpg");
+    width: 48%;
+    height: 48%;
+    background-size: cover;
+}
+.if > .i4{
+    background-image: url("bxes100.jpg");
+    width: 48%;
+    height: 48%;
+    background-size: cover;
+}
+.elec{
+    background-image: url("elec2.jpg");
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+}
+.if{
+    
+    width: 100%;
+       height: 750px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .im1 > .i1{
+        background-image: url("ele1.jpg");
+        width: 48%;
+        height: 48%;
+        background-size: cover;
+        margin: 0%;
+    }
+    .im1 > .i2{
+        background-image: url("ele2.jpg");
+        width: 48%;
+        height: 48%;
+        background-size: cover;
+        margin: 0%;
+
+    }
+    .im2 > .i3{
+        background-image: url("ele3.jpg");
+        width: 48%;
+        height: 48%;
+        background-size: cover;
+        margin: 0%;
+
+    }
+    .im2 > .i4{
+        background-image: url("ele4.jpg");
+        width: 48%;
+        height: 48%;
+        background-size: cover;
+        margin: 0%;
+
+    }
+    .im1{
+        width: 100%;
+        height: 50%;
+    }
+    .im2{
+        width: 90%;
+        height: 50%;
+    }
+    
+    .ie{
+        width: 100%;
+        height: 750px;
+         display: flex;
+         justify-content: space-evenly;
+    }
