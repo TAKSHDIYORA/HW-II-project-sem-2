@@ -38,8 +38,8 @@ li a{
     margin-bottom: 50px ;
 }
 li:hover a{
-    color: aquamarine;
-    border-bottom: 3.5px solid aquamarine;
+    color: rgb(199, 108, 24);
+    border-bottom: 3.5px solid rgb(199, 108, 24);
 
 }
 a{
@@ -58,9 +58,12 @@ a{
     justify-content: space-evenly;
 }
 .box{
-    border: 2px solid black;
+    border: 2px solid white;
     height: 400px;
     width: 23%;
+}
+.box:hover{
+    border: 2px solid gray;
 }
 .if{
     
