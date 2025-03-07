@@ -42,6 +42,7 @@ li:hover a{
     border-bottom: 3.5px solid rgb(199, 108, 24);
 
 }
+
 a{
     color: black;
 
@@ -62,8 +63,8 @@ a{
     height: 400px;
     width: 23%;
 }
-.box:hover{
-    border: 2px solid gray;
+.box:hover {
+   border: 3px solid gray;
 }
 .if{
     
