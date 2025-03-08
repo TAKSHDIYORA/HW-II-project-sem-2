@@ -2,16 +2,14 @@
     text-decoration: none;
     margin-top: 0px;
 }
-#main{
-    background-color: rgb(251, 247, 247);
-}
+
 .navbar{
     margin-top: 0px;
     background :rgb(226, 182, 125);
     font-family: calibri;
     padding-right: 15px;
     padding-left: 15px;
-  
+
    box-shadow: 10px 5px 5px gray ; 
    width: 100%;
 }
@@ -25,28 +23,24 @@
     font-weight: 600;
     color:white ;
 }
-li{
+.navdiv li{
     list-style: none;
     display: inline-block;
     margin-top: 20px;
 }
-li a{
+.navdiv li a{
     color: white;
     font-size: 18px;
     font-weight: bold;
     margin-right: 25px;
     margin-bottom: 50px ;
 }
-li:hover a{
+.navdiv li:hover a{
     color: rgb(199, 108, 24);
     border-bottom: 3.5px solid rgb(199, 108, 24);
 
 }
 
-a{
-    color: black;
-
-}
 .hero{
     background-image: url("hero.png");
     background-size: cover;
@@ -63,11 +57,13 @@ a{
     height: 400px;
     width: 23%;
 }
+.box:hover{
+    border: 2px solid gray;
 .box:hover {
    border: 3px solid gray;
 }
 .if{
-    
+
 width: 100%;
    height: 750px;
     display: flex;
@@ -106,7 +102,7 @@ width: 100%;
     background-size: cover;
 }
 .if{
-    
+
     width: 100%;
        height: 750px;
         display: flex;
@@ -151,10 +147,22 @@ width: 100%;
         width: 90%;
         height: 50%;
     }
-    
+
     .ie{
         width: 100%;
         height: 750px;
          display: flex;
          justify-content: space-evenly;
     }
+
+    footer {
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+        
+    }
+}
+div.containerFooter div.webFooter{
+    width:25%;  
+    float:left;
+}
