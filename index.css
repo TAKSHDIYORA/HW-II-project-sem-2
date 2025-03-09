@@ -1,19 +1,21 @@
-*{
-    text-decoration: none;
-    margin-top: 0px;
-}
+
 #main{
-    background-color: rgb(251, 247, 247);
+    background-color:rgb(236, 231, 224);
 }
 .navbar{
     margin-top: 0px;
     background :rgb(226, 182, 125);
     font-family: calibri;
-    padding-right: 15px;
-    padding-left: 15px;
-  
-   box-shadow: 10px 5px 5px gray ; 
+    padding-right: 0px;
+    padding-left: 0px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+    
    width: 100%;
+}
+.logo >a{
+    margin-left: 25px;
+    text-decoration: none;
 }
 .navdiv{
     display: flex;
@@ -23,34 +25,74 @@
 .logo a{
     font-size: 35px;
     font-weight: 600;
-    color:white ;
+    color: rgb(249, 248, 248);
+    margin-top: 0px;
+
 }
 li{
     list-style: none;
     display: inline-block;
     margin-top: 20px;
+    
 }
 li a{
     color: white;
     font-size: 18px;
     font-weight: bold;
     margin-right: 25px;
-    margin-bottom: 50px ;
-}
-li:hover a{
-    color: aquamarine;
-    border-bottom: 3.5px solid aquamarine;
+    margin-top: 0px;
+    text-decoration: none;
 
 }
+li:hover a{
+    text-decoration: none;
+    color: rgb(199, 108, 24);
+    border-bottom: 3.5px solid rgb(199, 108, 24);
+
+}
+.elements>a{
+    margin-top: 0px;
+}
+
 a{
     color: black;
 
 }
 .hero{
-    background-image: url("hero.png");
+    background-image: url("features/home.png");
     background-size: cover;
     height: 600px;
+    width: 100%;
     background-repeat: no-repeat;
+    margin-right: 0%;
+    padding-right: 0%;
+}
+.hero > .text{
+    padding-top: 200px;
+    font-size: 20px;
+}
+.text>h1{
+    color: rgb(193, 131, 50);
+}
+.text>h2{
+    color: rgb(229, 185, 127);
+}
+.text>h3{
+    color: rgb(168, 114, 44);
+}
+.text>.shop>a{
+    text-decoration: none;
+    margin-left: 250px;
+    /* background-color: rgb(251, 171, 41); */
+    background-image: linear-gradient(to right, rgb(247, 194, 110) , rgb(251, 153, 41));
+
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.text>.shop>a:hover{
+    /* background-color:  rgb(253, 179, 60); */
+    background-image: linear-gradient(to right, rgb(248, 201, 125) , rgb(252, 160, 55));
 }
 .shop-section{
     margin-top:20px ;
@@ -58,99 +100,119 @@ a{
     justify-content: space-evenly;
 }
 .box{
-    border: 2px solid black;
+    border: 2px solid white;
     height: 400px;
     width: 23%;
 }
-.if{
-    
-width: 100%;
-   height: 750px;
+.box:hover {
+   border: 3px solid gray;
+}
+.features{
     display: flex;
-    justify-content: space-evenly;
-}
-.if > .i1{
-    background-image: url("boxe2.jpg");
-    width: 48%;
-    height: 48%;
-    background-size: cover;
-
-}
-.if > .i2{
-    background-image: url("boxes101.jpg");
-    width: 48%;
-    height: 48%;
-    background-size: cover;
-
-}
-.if > .i3{
-    background-image: url("boxes.jpg");
-    width: 48%;
-    height: 48%;
-    background-size: cover;
-}
-.if > .i4{
-    background-image: url("bxes100.jpg");
-    width: 48%;
-    height: 48%;
-    background-size: cover;
-}
-.elec{
-    background-image: url("elec2.jpg");
-    height: 350px;
-    width: 100%;
-    background-size: cover;
-}
-.if{
+   
+    /* flex-wrap: wrap; */
     
-    width: 100%;
-       height: 750px;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .im1 > .i1{
-        background-image: url("ele1.jpg");
-        width: 48%;
-        height: 48%;
-        background-size: cover;
-        margin: 0%;
-    }
-    .im1 > .i2{
-        background-image: url("ele2.jpg");
-        width: 48%;
-        height: 48%;
-        background-size: cover;
-        margin: 0%;
-
-    }
-    .im2 > .i3{
-        background-image: url("ele3.jpg");
-        width: 48%;
-        height: 48%;
-        background-size: cover;
-        margin: 0%;
-
-    }
-    .im2 > .i4{
-        background-image: url("ele4.jpg");
-        width: 48%;
-        height: 48%;
-        background-size: cover;
-        margin: 0%;
-
-    }
-    .im1{
-        width: 100%;
-        height: 50%;
-    }
-    .im2{
-        width: 90%;
-        height: 50%;
-    }
     
-    .ie{
-        width: 100%;
-        height: 750px;
-         display: flex;
-         justify-content: space-evenly;
+}
+
+.box{
+    /* padding:25px;
+    padding-top: 150px;
+    box-sizing: border-box; */
+    position: relative;
+    /* padding-left: 25px; */
+    width: 100%;
+    height: 190px;
+    width: 14%;
+    border: solid 2px rgb(234, 168, 54);
+    margin: 1.5%;
+    border-radius: 5px;
+
+}
+.box:hover{
+    border: 2px solid rgb(211, 189, 143);
+}
+.box .text{
+    position: absolute;
+    bottom: 15px;
+    left: 25%;
+    font-size: 15px;
+    /* display: block; */
+    padding: 5px;
+    /* padding: 2rem; */
+    /* width: 50%; */
+    margin: auto;
+    background-image: linear-gradient(to right,rgb(245, 168, 45),rgb(193, 131, 50),rgb(193, 131, 50));
+    border-radius: 5px;
+}
+.box .text:hover{
+    background-image: linear-gradient(to right,rgb(245, 179, 73),rgb(185, 134, 67),rgb(192, 137, 66));
+    border-radius: 5px;
+}
+.box1{
+    height: 75%;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-image: url("features/image1.png");
+    background-repeat: no-repeat;
+}
+.box2{
+    height: 75%;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-image: url("features/image2.png");
+    background-repeat: no-repeat;
+}
+.box3{
+    height: 75%;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-image: url("features/image3.png");
+    background-repeat: no-repeat;
+}
+.box4{
+    height: 75%;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-image: url("features/image4.png");
+    background-repeat: no-repeat;
+}
+.box5{
+    height: 65%;
+    width: 85%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-image: url("features/image5.png");
+    background-repeat: no-repeat;
+}
+.box6{
+    height: 75%;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-image: url("features/image6.png");
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+    footer {
+        /* background-color: rgb(245, 241, 241); */
+        border: 2px solid balck;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 0px;
+        
     }
+
+div.containerFooter div.webFooter{
+    width:25%;  
+    float:left;
+}
