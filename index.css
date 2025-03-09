@@ -29,13 +29,13 @@ border-bottom-right-radius: 5px;
     margin-top: 0px;
 
 }
-li{
+.navdiv li{
     list-style: none;
     display: inline-block;
     margin-top: 20px;
     
 }
-li a{
+.navdiv li a{
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -58,6 +58,7 @@ a{
     color: black;
 
 }
+
 .hero{
     background-image: url("features/home.png");
     background-size: cover;
@@ -100,6 +101,7 @@ a{
     justify-content: space-evenly;
 }
 .box{
+    border: 2px solid white;
     border: 2px solid white;
     height: 400px;
     width: 23%;
