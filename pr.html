@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspirational Messages</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff9966, #ff5e62);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+/* Header Styling */
+header {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Box Style for Message Section */
+.box {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: black;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Message Box Styling */
+.msg {
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px 0;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.msg:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Individual Message Styles */
+.msg1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffdd57;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.msg2 {
+    font-family: 'Verdana', sans-serif;
+    color: #66ff99;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.msg3 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #ff6666;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.msg4 {
+    font-family: 'Comic Sans MS', cursive;
+    color: #6699ff;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.msg5 {
+    font-family: 'Impact', sans-serif;
+    color: #ffcc66;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .box {
+        width: 90%;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Inspirational Messages & Beliefs</h1>
+        <p>Words that inspire, motivate, and ignite change!</p>
+    </header>
+
+    <main>
+        <section class="box messages">
+            <p class="msg msg1">"Believe you can and you're halfway there." - Theodore Roosevelt</p>
+            <p class="msg msg2">"Success is not final, failure is not fatal: it is the courage to continue that counts." - Winston Churchill</p>
+            <p class="msg msg3">"Your time is limited, so don’t waste it living someone else’s life." - Steve Jobs</p>
+            <p class="msg msg4">"Happiness depends upon ourselves." - Aristotle</p>
+            <p class="msg msg5">"Dream big and dare to fail." - Norman Vaughan</p>
+        </section>
+    </main>
+
+</body>
+</html>
