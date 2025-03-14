@@ -39,7 +39,7 @@ border-bottom-right-radius: 5px;
     color: white;
     font-size: 18px;
     font-weight: bold;
-    margin-right: 25px;
+    margin-right: 2rem;
     margin-top: 0px;
     text-decoration: none;
 
@@ -50,8 +50,9 @@ li:hover a{
     border-bottom: 3.5px solid rgb(199, 108, 24);
 
 }
-.elements>a{
-    margin-top: 0px;
+.elements{
+    margin-top: px;
+    padding: 0px;
 }
 
 a{
@@ -67,6 +68,7 @@ a{
     background-repeat: no-repeat;
     margin-right: 0%;
     padding-right: 0%;
+    flex-wrap: wrap;
 }
 .hero > .text{
     padding-top: 200px;
@@ -115,6 +117,7 @@ a{
     border: 1px solid #e6a741;
     border-radius: 4px;
     margin: 15px 0;
+    margin-left: 60px;
     
   }
   #feature .fe-box:hover{
@@ -147,11 +150,30 @@ a{
     text-align: center;
 
   }
-.fe-pbox{
-    height: 250px;
+.fe-products .fe-pbox{
+    /* height: 250px;
     width: 240px;
     border: 2px solid black ;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: 60px; */
+    width: 180px;
+    height: 250px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #e6a741;
+    border-radius: 4px;
+    margin: 15px 0;
+    margin-left: 60px;
+}
+.fe-products .fe-pbox:hover{
+    border: 0.5px solid rgb(251, 171, 41);
+    box-shadow: 10px 10px 54px rgb(193, 134, 79);
+    transform: scale(1.05);
+}
+.fe-products .fe-pbox img{
+    width: 100%;
+    /* margin-bottom: 10px; */
 }
 
     
