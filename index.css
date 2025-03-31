@@ -157,6 +157,7 @@ a{
     color: rgb(168, 114, 44);
 }
 .text>.shop>a{
+    margin-top:25px;
     text-decoration: none;
     margin-left: 250px;
     /* background-color: rgb(251, 171, 41); */
