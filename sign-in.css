@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    justify-content: center;
+  /* text-align: center; */
+  background-color:rgb(236, 231, 224);
+  padding-top: 15rem;
+}
+.sign-in{
+    width: 350px;
+    height: 450px;
+    /* text-align: center; */
+    /* margin-left: 50% ; */
+    border: 2px solid black;
+    /* padding-left: 75px; */
+    border-radius: 10px;
+    color: rgb(25, 21, 17);
+}
+.sign-in>input,.sign-in>label{
+    width: 250px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+     /* text-align: center; */
+     margin-left: 50px;
+}
+.sign-in>input{
+  border: 1.5px solid rgb(219, 147, 52);
+  border-radius: 15px;
+  padding-left: 10px;
+  height: 25px;
+}
+.sign-in>input:active{
+ border: 2px solid red;
+}
+.sign-in>a{
+  color: blue;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+.sign-in>h1{
+     text-align: center;
+     color: rgb(228, 152, 52);;
+}
+.sign-in>button{
+    margin-left: 40%;
+    margin-top: 20px;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    
+    background-image: linear-gradient(to right, rgb(244, 200, 131) , rgb(247, 162, 65));
+    border: transparent;
+    
+}
+.sign-in>button>a{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.sign-in>p{
+    text-align: center;
+}
+
+.sign-up{
+    width: 350px;
+    height: 550px;
+    /* text-align: center; */
+    /* margin-left: 50% ; */
+    border: 2px solid black;
+    /* padding-left: 75px; */
+    border-radius: 10px;
+    color: rgb(18, 16, 14);;
+}
+.sign-up>input,.sign-up>label{
+    width: 250px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+     /* text-align: center; */
+     margin-left: 50px;
+}
+.sign-up>input{
+  border: 1.5px solid rgb(219, 147, 52);
+  border-radius: 15px;
+  padding-left: 10px;
+  height: 25px;
+}
+.sign-up>input:active{
+ border: 2px solid red;
+}
+
+.sign-up>h1{
+     text-align: center;
+     color: rgb(228, 152, 52);;
+}
+.sign-up>button{
+    margin-left: 40%;
+    margin-top: 20px;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(244, 200, 131) , rgb(247, 162, 65));
+    border: transparent;
+}
+.sign-up>p{
+    text-align: center;
+}
+.sign-up>p>a{
+    color: aliceblue;
+    background-color: rgb(94, 95, 96);
+ /* border: 2px solid black;  */
+ padding: 10px;  
+ border-radius: 50%; 
+}
+.sign-up>button>a{
+    color: black;
+}

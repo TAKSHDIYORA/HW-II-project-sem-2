@@ -17,27 +17,7 @@
     z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-#sign-in {
-    text-decoration: none;
-    background-image: linear-gradient(to right, rgb(247, 194, 110), rgb(251, 153, 41));
-    border: none;
-    padding: 8px 15px;
-    border-radius: 8px;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
-    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
-    display: inline-block;
-}
 
-#sign-in:hover {
-    background-image: linear-gradient(to right, rgb(248, 201, 125), rgb(252, 160, 55));
-    transform: scale(1.05);
-}
-
-#sign-in:active {
-    transform: scale(0.95);
-}
 
 /* Navbar container */
 .nav-container {

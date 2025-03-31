@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign-in.css">
+    <style>
+  h4{
+    text-align: center;
+    position: relative;
+   color: rgb(104, 101, 101);
+  }
+  h4::before,h4::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    
+    width: 40%;
+    height: 1px;
+
+    background-color: black;  
+  }
+  h4::after{
+    right: 70px;
+  }
+  h4::before{
+    left: 70px;
+  }
+  
+    </style>
+</head>
+<body>
+    <div class="sign-in">
+   <h1>Sign-in</h1>
+   <label > Enter email-id or username</label><br>
+   
+   <input type="text" placeholder="Enter your email and username here." >
+   <br>
+   <label>Password</label>  
+   <br>
+   <input type="password" placeholder="Enter your password here">
+  <a href=""> <label id="password">Forgott Password?</label></a>
+  <br>
+  <button><a href="index.html">Sign-in</a></button>
+  <br><br>
+  
+  <p>Don't have an account? <a href="sign-up.html">Sign up</a></p>
+
+
+</div>
+
+    <!-- <h4 class="line-around-text">new to swastik?</h4>
+   <button>Create Your account</button> -->
+
+
+</body>
+</html>

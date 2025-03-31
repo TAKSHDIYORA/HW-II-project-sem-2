@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign-in.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+  h4{
+    text-align: center;
+    position: relative;
+   color: rgb(104, 101, 101);
+  }
+  h4::before,h4::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    
+    width: 40%;
+    height: 1px;
+
+    background-color: black;  
+  }
+  h4::after{
+    right: 70px;
+  }
+  h4::before{
+    left: 70px;
+  }
+  
+    </style>
+</head>
+<body>
+    <div class="sign-up">
+   <h1>Sign-up</h1>
+   <label > Enter email-id or username</label><br>
+   
+   <input type="text" placeholder="Enter your email and username here." >
+   <br>
+   <label>Name</label>
+   <input type="text" placeholder="Enter your name here." >
+   <br>
+   <label>Password</label>  
+   <br>
+   <input type="password" placeholder="Enter your password here">
+  <label>Confirm your password</label>
+  <input type="password" placeholder="Enter your password here">
+  
+  
+  <button><a href="sign-in.html">sign-up</a></button>
+  <br><br>
+  
+  <p>Sign-up with google ? <a href=""><i class="fab fa-google"></i></a></p>
+
+
+</div>
+
+    <!-- <h4 class="line-around-text">new to swastik?</h4>
+   <button>Create Your account</button> -->
+
+
+</body>
+</html>
