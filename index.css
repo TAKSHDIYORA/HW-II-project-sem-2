@@ -77,80 +77,168 @@
 }
 
 /* Responsive Design */
-@media screen and (max-width: 768px) {
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        background: rgb(226, 182, 125);
-        width: 100%;
-        text-align: center;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
 
-    .nav-links.active {
-        display: flex;
-    }
 
-    .nav-links li {
-        padding: 15px 0;
-    }
-
-    .menu-icon {
-        display: block;
-    }
+.elements {
+    margin-top: 20px; /* Example */
 }
 
-.elements{
-    margin-top: px;
-    padding: 0px;
-}
 
 a{
     color: black;
 
 }
 
-.hero{
+/* .hero{
     background-image: url("features/home.png");
     background-size: cover;
-    height: 600px;
     width: 100%;
+    height: auto; 
     background-repeat: no-repeat;
+    /* background-size: contain; 
     margin-right: 0%;
     padding-right: 0%;
     flex-wrap: wrap;
-}
+    border: 1px solid black;
+} */
+/*
 .hero > .text{
+    max-height: 100%;
+   max-width: 100%;
     padding-top: 200px;
     font-size: 20px;
-}
-.text>h1{
-    color: rgb(193, 131, 50);
-}
-.text>h2{
-    color: rgb(229, 185, 127);
-}
-.text>h3{
-    color: rgb(168, 114, 44);
-}
-.text>.shop>a{
-    margin-top:25px;
-    text-decoration: none;
-    margin-left: 250px;
-    /* background-color: rgb(251, 171, 41); */
-    background-image: linear-gradient(to right, rgb(247, 194, 110) , rgb(251, 153, 41));
+} */
+@media (max-width: 1024px) {
+    .nav-container {
+        padding: 0 10px;
+    }
 
-    padding: 5px;
+    .hero > .text {
+        padding-top: 150px;
+        text-align: center;
+    }
+
+    .text > .shop > a {
+        margin-left: 0;
+    }
+
+    .fe-products .fe-pbox {
+        width: 90%;
+        height: auto;
+    }
+
+    .team-member {
+        width: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    .logo a {
+        font-size: 24px;
+    }
+
+    .menu-icon {
+        font-size: 24px;
+    }
+
+    .hero > .text {
+        padding-top: 100px;
+        font-size: 16px;
+    }
+
+    .text > .shop > a {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+    .offer {
+        padding-top: 60px;
+        font-size: 16px;
+    }
+
+    .about-content {
+        padding: 30px 10px;
+    }
+
+    .fe-products .fe-pbox {
+        width: 100%;
+        height: auto;
+    }
+
+    .team-member {
+        width: 90%;
+    }
+
+    .col {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+.hero-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.hero-text h1{
+    color: #e49d32;
+}
+.hero-text h2{
+    color: #8b653a;
+}
+.hero-text h3 {
+    color: #fff;
+    margin: 10px 0;
+}
+
+/* Shop Now Button Styling */
+.hero-text .shop a {
+    background-image: linear-gradient(to right, rgb(247, 194, 110), rgb(251, 153, 41));
+    padding: 10px 20px;
     border-radius: 5px;
     color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: bold;
 }
-.text>.shop>a:hover{
-    /* background-color:  rgb(253, 179, 60); */
-    background-image: linear-gradient(to right, rgb(248, 201, 125) , rgb(252, 160, 55));
+.hero-text .shop a:hover{
+    background-image: linear-gradient(to right, rgb(247, 190, 99), rgb(248, 144, 25));
+
 }
+/* Responsive: smaller fonts on small devices */
+@media (max-width: 500px) {
+    .hero-text h1,
+    .hero-text h2,
+    .hero-text h3 {
+        font-size: 16px;
+    }
+
+    .hero-text .shop a {
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+}
+*
 .shop-section{
     margin-top:20px ;
     display: flex;
@@ -290,8 +378,20 @@ a{
 }
 
 .fe-pbox button:hover {
-    background-image: linear-gradient(to right, rgb(244, 200, 131) , rgb(247, 162, 65));}
+    background-image: linear-gradient(to right, rgb(244, 200, 131) , rgb(247, 162, 65));
+}
 
+    @media (max-width: 768px) {
+        .fe-products {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .fe-products .fe-pbox {
+            width: 90%;
+        }
+    }
+    
 *{
     margin: 0;
     padding: 0;
@@ -519,17 +619,104 @@ ul{
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+    .hero {
+        padding-top: 150px;
+    }
+
+    .fe-pbox {
+        width: 45%;
+    }
+
+    .footer .col {
+        width: 50%;
+    }
+}
+
 @media (max-width: 768px) {
-    .mission-vision {
+    .nav-links {
+        display: none;
         flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: rgb(226, 182, 125);
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .hero {
+        padding-top: 120px;
+    }
+
+    .fe-pbox {
+        width: 100%;
+    }
+
+    .footer .col {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo a {
+        font-size: 24px;
+    }
+
+    .text h1, .text h2, .text h3 {
+        font-size: 18px;
+    }
+
+    .text .shop a {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .fe-pbox img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero {
+        background-image: url("features/home.png"); /* Make sure path is correct */
+        background-size: contain;
+        background-position: top center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        padding: 100px 20px 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        text-align: center;
     }
-    
-    .team-members {
-        flex-direction: column;
+
+    .hero .text {
+        padding-top: 0;
     }
-    
-    .team-member {
-        width: 80%;
+
+    .text h1, .text h2, .text h3 {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .text .shop {
+        margin-top: 20px;
+    }
+
+    .text .shop a {
+        font-size: 14px;
+        padding: 8px 16px;
     }
 }
