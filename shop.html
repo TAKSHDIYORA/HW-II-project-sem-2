@@ -1,80 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shop - SWASTIK</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 </head>
-<body id="main">
-    <header>
-        <nav class="navbar">
-            <div class="nav-container">
-                <div class="logo">
-                    <a href="index.html">SWASTIK</a>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <!-- <li><a href="shop.html">Shop</a></li> -->
-                    <li><a href="review.html">Review</a></li>
-                    <li><a href="About-us.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="cart.html">Cart</a></li>
-                </ul>
-                <div class="menu-icon">
-                    ☰
-                </div>
-            </div>
-        </nav>
-        
-    </header>
-    <p>This is shop page</p>
-    <footer class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-                <h4>Follow Us</h4>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-        
-            </div>
-            <div class="col">
-                <h4>SHOP</h4>
-                <ul>
-                    <li><a href="#">Bags</a></li>
-                    <li><a href="#">Shorts</a></li>
-                    <li><a href="#">Shirts</a></li>
-                    <li><a href="#">Jackets</a></li>
-                    <li><a href="#">Accessories</a></li>
-                </ul>
-        
-            </div>
-            <div class="col">
-                <h4>INFORMATION</h4>
-                <ul>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Customers</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Collection</a></li>
-                </ul>
-            </div>
-            <div class="col">
-                <h4>PRESS</h4>
-                <ul>
-                    <li><a href="#">Awards</a></li>
-                    <li><a href="#">Timeline</a></li>
-                    <li><a href="#">Press Releases</a></li>
-                    <li><a href="#"> Testimonials</a></li>
-                </ul>
-        
-            </div>
+<body id="shop">
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <img src="img/logo.png" />
+          <a href="index.html">SWASTIK</a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html" class="active">Shop</a></li>
+          <li><a href="review.html">Review</a></li>
+          <li><a href="About-us.html">About</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+        <div class="menu-icon">☰</div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Shop Hero Section -->
+  <section class="shop-hero">
+    <h1>Explore Our Collection</h1>
+    <p>Elevate your fashion with our premium handpicked pieces</p>
+  </section>
+
+  <section class="product-grid">
+    <div class="product-card">
+      <img src="products/leather wallet.jpg" alt="Bag" />
+      <h3>Leather Bag</h3>
+      <p>$89.99</p>
+      <button>Add to Cart</button>
+    </div>
+  
+    <div class="product-card">
+      <img src="img/jacket.jpg" alt="Jacket" />
+      <h3>Stylish Jacket</h3>
+      <p>$119.99</p>
+      <button>Add to Cart</button>
+    </div>
+  
+    <div class="product-card">
+      <img src="img/shoes.jpg" alt="Shoes" />
+      <h3>Premium Shoes</h3>
+      <p>$149.99</p>
+      <button>Add to Cart</button>
+    </div>
+  
+    <div class="product-card">
+      <img src="img/shirt.jpg" alt="Shirt" />
+      <h3>Casual Shirt</h3>
+      <p>$49.99</p>
+      <button>Add to Cart</button>
+    </div>
+  
+    <div class="product-card">
+      <img src="img/hat.jpg" alt="Hat" />
+      <h3>Classic Hat</h3>
+      <p>$29.99</p>
+      <button>Add to Cart</button>
+    </div>
+  
+    <div class="product-card">
+      <img src="img/sunglasses.jpg" alt="Sunglasses" />
+      <h3>Luxury Sunglasses</h3>
+      <p>$99.99</p>
+      <button>Add to Cart</button>
+    </div>
+  
+    <div class="product-card">
+      <img src="img/watch.jpg" alt="Watch" />
+      <h3>Smart Watch</h3>
+      <p>$199.99</p>
+      <button>Add to Cart</button>
+    </div>
+  
+    <div class="product-card">
+      <img src="img/hoodie.jpg" alt="Hoodie" />
+      <h3>Comfort Hoodie</h3>
+      <p>$59.99</p>
+      <button>Add to Cart</button>
+    </div>
+  
+    <div class="product-card">
+      <img src="img/pants.jpg" alt="Pants" />
+      <h3>Formal Pants</h3>
+      <p>$69.99</p>
+      <button>Add to Cart</button>
+    </div>
+  
+    <div class="product-card">
+      <img src="img/t-shirt.jpg" alt="T-shirt" />
+      <h3>Graphic T-shirt</h3>
+      <p>$39.99</p>
+      <button>Add to Cart</button>
+    </div>
+  
+    <div class="product-card">
+      <img src="img/backpack.jpg" alt="Backpack" />
+      <h3>Travel Backpack</h3>
+      <p>$79.99</p>
+      <button>Add to Cart</button>
+    </div>
+  
+    <div class="product-card">
+      <img src="img/boots.jpg" alt="Boots" />
+      <h3>Leather Boots</h3>
+      <p>$139.99</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
           </div>
         </div>
-        </footer>
+        <div class="col">
+          <h4>SHOP</h4>
+          <ul>
+            <li><a href="#">Bags</a></li>
+            <li><a href="#">Shorts</a></li>
+            <li><a href="#">Shirts</a></li>
+            <li><a href="#">Jackets</a></li>
+            <li><a href="#">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>INFORMATION</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Collection</a></li>
+          </ul>
+        </div>
+        <div class="col">
+          <h4>PRESS</h4>
+          <ul>
+            <li><a href="#">Awards</a></li>
+            <li><a href="#">Timeline</a></li>
+            <li><a href="#">Press Releases</a></li>
+            <li><a href="#">Testimonials</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

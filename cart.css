@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.navbar {
+    background-color: black;
+    padding: 15px 30px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo a {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(247, 162, 65);
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: rgb(244, 200, 131);
+}
+
+.cart-container {
+    max-width: 1200px;
+    margin: 80px auto 50px;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.15);
+    display: flex;
+    gap: 40px;
+}
+
+.heading-1 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: rgb(247, 162, 65);
+}
+
+.cart-table th {
+    background-color: rgb(244, 200, 131);
+    color: white;
+    font-size: 18px;
+}
+
+.cart-items td {
+    padding: 15px;
+    text-align: center;
+}
+
+.cart-item img {
+    width: 70px;
+    border-radius: 10px;
+}
+
+.remove-btn {
+    background-color: rgb(247, 162, 65);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.remove-btn:hover {
+    background-color: rgb(220, 130, 50);
+}
+
+.cart-summary {
+    background-color: rgb(244, 200, 131);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    text-align: left;
+    width: 300px;
+}
+
+.cart-summary h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.cart-summary h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.checkout-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background-color: rgb(247, 162, 65);
+    color: white;
+}
+
+/* Suggested Products Section */
+.suggested-products h2 {
+    text-align: center;
+    font-size: 28px;
+    color: rgb(244, 200, 131);
+    margin-bottom: 20px;
+}
+
+.fe-products {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 20px 40px;
+}
+
+.fe-pbox {
+    background-color: white;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 15px;
+    width: 220px;
+    text-align: center;
+}
+
+.fe-pbox img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fe-pbox h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: black;
+}
+
+.fe-pbox h3 {
+    color: rgb(247, 162, 65);
+    margin-bottom: 10px;
+}
+
+.fe-pbox button {
+    background-color: black;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.fe-pbox button:hover {
+    background-color: rgb(247, 162, 65);
+}
+
+/* Footer Styling */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer .col {
+    flex: 1 1 200px;
+    padding: 10px 20px;
+}
+
+.footer h4 {
+    font-size: 18px;
+    color: rgb(244, 200, 131);
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    line-height: 1.8;
+}
+
+.footer ul li a:hover {
+    color: rgb(247, 162, 65);
+}
+
+.social-links a {
+    color: white;
+    margin-right: 15px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: rgb(247, 162, 65);
+}

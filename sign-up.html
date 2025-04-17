@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="sign-in.css">
+    <link rel="stylesheet" href="sign-up.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <style>
   h4{
@@ -32,29 +32,31 @@
     </style>
 </head>
 <body>
+  <form action="sign-in.html" method="get">
     <div class="sign-up">
    <h1>Sign-up</h1>
    <label > Enter email-id or username</label><br>
    
-   <input type="text" placeholder="Enter your email and username here." >
+   <input type="email" placeholder="Enter your email and username here." required>
    <br>
    <label>Name</label>
-   <input type="text" placeholder="Enter your name here." >
+   <input type="text" placeholder="Enter your name here." required>
    <br>
    <label>Password</label>  
    <br>
-   <input type="password" placeholder="Enter your password here">
+   <input type="password" placeholder="Enter your password here" required>
   <label>Confirm your password</label>
-  <input type="password" placeholder="Enter your password here">
+  <input type="password" placeholder="Enter your password here" required>
   
   
-  <button><a href="sign-in.html">sign-up</a></button>
+  <button type="submit" >sign-up</button>
   <br><br>
   
   <p>Sign-up with google ? <a href=""><i class="fab fa-google"></i></a></p>
 
 
 </div>
+</form>
 
     <!-- <h4 class="line-around-text">new to swastik?</h4>
    <button>Create Your account</button> -->
