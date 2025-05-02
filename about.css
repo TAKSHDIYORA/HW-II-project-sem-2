@@ -64,15 +64,19 @@ body {
 /* Hero Section */
 .about-hero {
     background: linear-gradient(to right, rgb(247, 162, 65), rgb(244, 200, 131));
-    color: white;
+    color: rgb(5, 5, 5);
     text-align: center;
     padding: 80px 20px;
+    border-bottom: 5px solid rgb(241, 153, 44);
+
 }
 
 .about-hero .hero-text h1 {
     font-family: 'Playfair Display', serif;
     font-size: 50px;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(7, 7, 7, 0.3);
+
 }
 
 .about-hero .hero-text p {

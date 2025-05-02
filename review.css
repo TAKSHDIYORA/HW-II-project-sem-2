@@ -69,11 +69,15 @@ body {
     color: black;
     text-align: center;
     padding: 20px;
+    border-bottom: 5px solid rgb(241, 153, 44);
+
   }
   
   .hero-text h1 {
     font-size: 40px;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(7, 7, 7, 0.3);
+
   }
   
   .hero-text p {
